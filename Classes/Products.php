@@ -3,14 +3,12 @@ class Products{
     private $nome;
     private $animale;
     private $costo;
-    private $logged;
 
-    function __construct($_nome, $_animale, $_costo, $_logged = false)
+    function __construct($_nome, $_animale, $_costo)
     {
         $this->nome = $_nome;
         $this->animale = $_animale;
         $this->costo = $_costo;
-        $this->logged = $_logged;
     }
 
     public function getFullInfo(){
@@ -25,8 +23,6 @@ class Products{
     public function getCosto(){
         return $this->costo;
     }
-    public function getLogged(){
-        return $this->logged;
-    }
+
 }
 ?>

@@ -47,7 +47,7 @@ $prods = [
             if(!$utente->getLogged()){
                 $product = new Products($prod['nome'], $prod['animale'], $prod['costo']);
             }else{
-                $prod['costo'] = $prod['costo'] * $loggato->getDiscount();
+                $prod['costo'] = $prod['costo'] * $utente->getDiscount();
                 $product = new Products($prod['nome'], $prod['animale'], $prod['costo']);
             } ?>
             

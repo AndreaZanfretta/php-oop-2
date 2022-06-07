@@ -13,9 +13,9 @@
   <label for="email">email:</label><br>
   <input type="email" id="email" name="email"><br>
   <label for="pass">Password</label><br>
-  <input type="text" id="pass" name="pass"><br>
-  <input type="submit" value="Submit">
-  <input type="submit" value="Submit">
+  <input type="password" id="pass" name="pass"><br>
+  <input type="submit" value="Registrati">
+  <input type="submit" value="Entra come Ospite">
 </form> 
 </body>
 </html>
