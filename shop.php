@@ -42,6 +42,7 @@ $prods = [
 <body>
     <h1>Negozio di Animali Pippo&Co</h1>
     <h2>Lista Prodotti</h2>
+    
     <ul>
         <?php foreach($prods as $key => $prod){ 
             if(!$utente->getLogged()){
